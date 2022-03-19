@@ -1,4 +1,4 @@
-#Monster Slayer!
+# Monster Slayer!
 
 # Vue 3, TypeScript & Tailwind CSS Starter
 
