@@ -1,3 +1,5 @@
+#Monster Slayer!
+
 # Vue 3, TypeScript & Tailwind CSS Starter
 
 > A simple, Vue 3 starter with TypeScript support
