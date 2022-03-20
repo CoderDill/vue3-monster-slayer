@@ -19,6 +19,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
     quotes: ['error', 'single'],
     semi: ['error', 'never'],
+    'vue/multi-word-component-names': 0,
   },
   overrides: [
     {
@@ -26,6 +27,14 @@ module.exports = {
         '**/__tests__/*.{j,t}s?(x)',
         '**/tests/unit/**/*.spec.{j,t}s?(x)',
       ],
+      rules: {
+        'vue/multi-word-component-names': [
+          'error',
+          {
+            ignores: ['default', 'Home'],
+          },
+        ],
+      },
       env: {
         mocha: true,
       },

@@ -1,9 +1,7 @@
-import Home from './views/Home.vue'
-import About from './views/About.vue'
+import HomeMonsterSlayer from './views/HomeMonsterSlayer.vue'
 import NotFound from './views/NotFound.vue'
 
 export const routes = [
-  { path: '/', component: Home, meta: { title: 'Home' }},
-  { path: '/about', component: About, meta: { title: 'About' }},
+  { path: '/', component: HomeMonsterSlayer, meta: { title: 'HomeMonsterSlayer' }},
   { path: '/:pathMatch(.*)*', component: NotFound, meta: { title: 'Page not found' }},
 ]

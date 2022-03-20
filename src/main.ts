@@ -18,16 +18,7 @@ if (import.meta.hot) {
     removeRoutes.push(router.addRoute(route))
   }
 }
-if (import.meta.hot) {
-  import.meta.hot?.accept('./routes.ts', ({ routes }) => {
-    for (const removeRoute of removeRoutes) removeRoute()
-    removeRoutes = []
-    for (const route of routes) {
-      removeRoutes.push(router.addRoute(route))
-    }
-    router.replace('')
-  })
-}
+
 
 app.use(router)
 app.mount('#app')

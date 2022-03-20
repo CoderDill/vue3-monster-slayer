@@ -2,9 +2,9 @@
   <div class="prose max-w-none">
     <h1>Not Found.</h1>
     <p>
-      You’ve landed on a URL that doesn’t seem to exist. Return
+      You’ve landed on a URL that doesn’t seem to exist. Return to
       <router-link to="/">
-        home
+        Game
       </router-link>.
     </p>
   </div>
